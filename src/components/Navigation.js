@@ -166,12 +166,18 @@ const Navigation = () => {
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
           <MenuItem>
             <div className="mobile">
-              <Button text="Connect Wallet" link="https://www.google.com.br/" />
+              <Button
+                text="Join Discord"
+                link="https://discord.com/invite/yEW8j9S5"
+              />
             </div>
           </MenuItem>
         </Menu>
         <div className="desktop">
-          <Button text="Connect Wallet" link="https://www.google.com.br/" />
+          <Button
+            text="Join Discord"
+            link="https://discord.com/invite/yEW8j9S5"
+          />
         </div>
       </NavBar>
     </Section>

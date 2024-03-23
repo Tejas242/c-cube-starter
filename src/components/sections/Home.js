@@ -113,10 +113,10 @@ const Home = () => {
           <CoverVideo />
         </Box>
 
-        <Round>
+        {/* <Round>
           <Circle>&#x2193;</Circle>
           <img src={RoundTextBlack} alt="NFT"></img>
-        </Round>
+        </Round> */}
       </Container>
     </Section>
   );

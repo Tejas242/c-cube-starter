@@ -41,6 +41,20 @@ const Section = styled.section`
   }
 `;
 
+const Title = styled.h1`
+  font-size: ${(props) => props.theme.fontxxl};
+  text-transformation: uppercase;
+  color: ${(props) => props.theme.body};
+
+  margin: 1rem auto;
+  border-bottom: 2px solid ${(props) => props.theme.cauroselColor};
+  width: fit-content;
+
+  @media (max-width: 48em) {
+    font-size: ${(props) => props.theme.fontxl};
+  }
+`;
+
 const move = keyframes`
   0%{ transform: translateX(100%)};
   100%{ transform: translateX(-100%)};
@@ -151,7 +165,8 @@ const Showcase = () => {
 
   return (
     <Section id="showcase">
-      <Row direction="none" ref={Row1Ref}>
+      <Title>Showcase</Title>
+      {/* <Row direction="none" ref={Row1Ref}>
         <NftItem img={img1} number={852} price={1.0} passRef={Row1Ref} />
         <NftItem img={img2} number={123} price={1.2} passRef={Row1Ref} />
         <NftItem img={img3} number={456} price={2.5} passRef={Row1Ref} />
@@ -164,7 +179,7 @@ const Showcase = () => {
         <NftItem img={img8} number={455} price={1.8} passRef={Row2Ref} />
         <NftItem img={img9} number={456} price={5.1} passRef={Row2Ref} />
         <NftItem img={img10} number={865} price={3.7} passRef={Row2Ref} />
-      </Row>
+      </Row> */}
     </Section>
   );
 };
