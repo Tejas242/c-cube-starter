@@ -174,16 +174,16 @@ const Footer = () => {
       </Container>
       <Bottom>
         <span>
-          &copy; {new Date().getFullYear()} Weirdos Club. All rights reserved.
+          &copy; {new Date().getFullYear()} C<sup>3</sup>. All rights reserved.
         </span>
         <span>
           Made with &#10084; by
           <a
-            href="https://youtube.com/codebucks"
+            href="https://github.com/tejas242"
             target="_blank"
             rel="noopener noreferrer"
           >
-            CodeBucks
+             Screenager
           </a>
         </span>
       </Bottom>

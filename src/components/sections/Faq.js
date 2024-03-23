@@ -91,42 +91,25 @@ const Faq = () => {
       <Title>FAQ</Title>
       <Container>
         <Box>
-          <Accordion title="WHERE CAN I VIEW MY NFTS?">
-            Once minted or bought simply connect to your OpenSea account to view
-            your NFTs.
+          <Accordion title="WHO CAN JOIN C^3?">
+            c^3 is open to all students interested in coding, regardless of skill level or major.
           </Accordion>
-          <Accordion title="WHAT IS THE METAVERSE?">
-            A metaverse is a network of 3D virtual worlds focused on social
-            connection. In futurism and science fiction, it is often described
-            as a hypothetical iteration of the Internet as a single, universal
-            virtual world that is facilitated by the use of virtual and
-            augmented reality headsets.
+          <Accordion title="DO I NEED PRIOR CODING EXPERIENCE?">
+            Not at all! c^3 welcomes beginners and provides resources to help you get started with coding.
           </Accordion>
-          <Accordion title="WHY DO WE NEED ROYALTIES?">
-            The amount of royalties was fixed at 5% to finance the Weirdos
-            Club's projects. We have the ambition to organize multiple events
-            around the world in order to strengthen the community and build a
-            network of entrepreneurs and investors with the same mindset and
-            common interests.
+          <Accordion title="WHAT KIND OF ACTIVITIES DOES C^3 ORGANIZE?">
+            We host workshops, coding challenges, hackathons, tech talks, project collaborations, and more.
           </Accordion>
         </Box>
         <Box>
-          <Accordion title="HOW CAN I USE MY NFT?">
-            You will be able to use your NFT as an avatar in the Metaverse and
-            our future video game. Holding also means that you are part of an
-            exclusive network of investors and entrepreneurs.
+          <Accordion title="HOW OFTEN DOES C^3 MEET?">
+            Our club meets weekly, but we also have regular study groups, project teams, and socials.
           </Accordion>
-          <Accordion title="WHAT ARE THE WEIRDOS?">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            deserunt consequatur quisquam maxime molestias dolores ipsum,
-            exercitationem vel sint quidem aliquam modi quis impedit corporis
-            unde inventore fugiat provident in.
+          <Accordion title="DO I NEED TO BE A COMPUTER SCIENCE MAJOR?">
+            Absolutely not! c^3 is for anyone interested in coding, regardless of their major.
           </Accordion>
-          <Accordion title="WHAT IS THE FUSION PROCESS?">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim
-            veritatis iusto officia. Exercitationem, ducimus reiciendis. Rem,
-            maxime, similique neque minus aliquam dolore doloremque laboriosam,
-            facilis quibusdam unde sint officia.
+          <Accordion title="HOW CAN I GET INVOLVED WITH C^3?">
+            Attend our next club meeting, check out our website or discord community for upcoming events, or reach out to the club leaders!
           </Accordion>
         </Box>
       </Container>

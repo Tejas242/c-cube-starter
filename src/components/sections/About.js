@@ -149,18 +149,21 @@ const About = () => {
         </Box>
         <Box>
           <Title>
-            Welcome To The <br /> Weirdos Club.
+            Welcome To <br /> C<sup>3</sup>.
           </Title>
           <SubText>
-            The WEIRDOS CLUB is a private collection of NFTs—unique digital
-            collectibles. The Weirdos are stored as ERC-721 tokens on the
-            Ethereum blockchain and hosted on IPFS.
+            c<sup>3</sup> (c-cube) is a coding club at Govt.
+            Engineering College, Chh. Sambhajinagar. Our community
+            brings together students passionate about programming to
+            learn, create, and innovate through code.
           </SubText>
           <SubTextLight>
-            With more than 200+ hand drawn traits, each NFT is unique and comes
-            with a membership to an exclusive group of successful investors.
-            Join an ambitious ever-growing community with multiple benefits and
-            utilities.
+            With expertise spanning languages, frameworks, and emerging
+            technologies, c<sup>3</sup> offers a diverse coding environment. It's
+            free and open to all students interested in coding. Join our
+            collective to attend workshops, collaborate on projects, and
+            be part of the coding movement. Grow your skills, network with
+            peers, and unlock your potential.
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
