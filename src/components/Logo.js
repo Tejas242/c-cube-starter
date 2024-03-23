@@ -20,7 +20,9 @@ const LogoText = styled.h1`
 const Logo = () => {
   return (
     <LogoText>
-      <Link to="/">W.</Link>
+      <Link to="/">
+        C<sup>3</sup>
+      </Link>
     </LogoText>
   );
 };
