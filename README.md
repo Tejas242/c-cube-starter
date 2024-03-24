@@ -1,4 +1,8 @@
-# C<sup>3</sup> Starter Template 
+# C<sup>3</sup> Starter Template
+
+This is a starter templare for the newly formed coding club in my college. 🚫🚫**Heavily Under Development**🚫🚫.
+
+## Steps to get it running
 
 1. Clone the repository
 2. Run `yarn install` (can be installed with `npm install -g yarn`)
