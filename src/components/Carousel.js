@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { useEffect, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -65,6 +66,14 @@ const Container = styled.div`
       height: auto;
       object-fit: cover;
     }
+
+    p,
+    h3 {
+      font-size: ${(props) => props.theme.fontmd};
+      color: ${(props) => props.theme.text};
+      text-align: center;
+      padding: 0 1rem;
+    }
   }
 
   .swiper-button-next {
@@ -114,7 +123,41 @@ const Container = styled.div`
   }
 `;
 
+const CardHeading = styled.h3`
+  font-size: 20px;
+  margin-bottom: 10px;
+`;
+
+const CardDescription = styled.p`
+  font-size: 16px;
+`;
+
 const Carousel = () => {
+  const [tips, setTips] = useState([]);
+
+  useEffect(() => {
+    const fetchTips = async () => {
+      try {
+        const promises = [];
+        for (let i = 0; i < 10; i++) {
+          promises.push(
+            fetch("https://prag-tips-api.vercel.app/tips/random").then(
+              (response) => response.json()
+            )
+          ); // Change URL if needed
+        }
+        console.log(promises);
+        const tipsData = await Promise.all(promises);
+        setTips(tipsData);
+        console.log(tipsData);
+      } catch (error) {
+        console.error("Error fetching tips:", error);
+      }
+    };
+
+    fetchTips();
+  }, []);
+
   return (
     <Container>
       <Swiper
@@ -134,7 +177,17 @@ const Carousel = () => {
         grabCursor={true}
         className="mySwiper"
       >
-        <SwiperSlide>
+        {tips.map((tipSet, index) => (
+          <SwiperSlide key={index}>
+            {Object.keys(tipSet).map((key) => (
+              <div key={key}>
+                <CardHeading>{tipSet[key].heading}</CardHeading>
+                <CardDescription>{tipSet[key].description}</CardDescription>
+              </div>
+            ))}
+          </SwiperSlide>
+        ))}
+        {/* <SwiperSlide>
           <img src={img1} alt="The Weirdos" />
         </SwiperSlide>
         <SwiperSlide>
@@ -163,7 +216,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={img10} alt="The Weirdos" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </Container>
   );

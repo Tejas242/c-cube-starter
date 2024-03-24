@@ -133,7 +133,7 @@ const ButtonContainer = styled.div`
 
   @media (max-width: 64em) {
     width: 100%;
-
+    self-align: center;
     button {
       margin: 0 auto;
     }
