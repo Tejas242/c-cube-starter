@@ -1,6 +1,6 @@
 # C<sup>3</sup> Starter Template
 
-This is a starter templare for the newly formed coding club in my college. 🚫🚫**Heavily Under Development**🚫🚫.
+This is a starter template for the newly formed coding club in my college. 🚫🚫**Heavily Under Development**🚫🚫.
 
 ## Steps to get it running
 
