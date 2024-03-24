@@ -160,24 +160,33 @@ const Navigation = () => {
         <Menu click={click}>
           <MenuItem onClick={() => scrollTo("home")}>Home</MenuItem>
           <MenuItem onClick={() => scrollTo("about")}>About</MenuItem>
-          <MenuItem onClick={() => scrollTo("roadmap")}>Roadmap</MenuItem>
+          <MenuItem onClick={() => scrollTo("Domains")}>Roadmap</MenuItem>
           <MenuItem onClick={() => scrollTo("showcase")}>Showcase</MenuItem>
           <MenuItem onClick={() => scrollTo("team")}>Team</MenuItem>
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
           <MenuItem>
             <div className="mobile">
-              <Button
-                text="Join Discord"
-                link="https://discord.com/invite/yEW8j9S5"
-              />
+              <a
+                href="https://discord.com/invite/yEW8j9S5"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Button
+                  text="Join Us"
+                  link="https://discord.com/invite/yEW8j9S5"
+                />
+              </a>
             </div>
           </MenuItem>
         </Menu>
         <div className="desktop">
-          <Button
-            text="Join Discord"
-            link="https://discord.com/invite/yEW8j9S5"
-          />
+          <a
+            href="https://discord.com/invite/yEW8j9S5"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <Button text="Join Us" link="https://discord.com/invite/yEW8j9S5" />
+          </a>
         </div>
       </NavBar>
     </Section>

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from "../Button";
 import { ThemeProvider } from "styled-components";
 import { dark } from "../../styles/Themes";
+import Calendar from "../../Icons/Calendar";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -74,9 +75,10 @@ const Title = styled.h1`
 const EventTitle = styled.h2`
   font-size: ${(props) => props.theme.fontxl};
   color: ${(props) => props.theme.body};
+  align-self: flex-start;
+  width: 80%;
   margin: 1rem auto;
   font-weight: 600;
-  text-align: center;
 `;
 
 const SubText = styled.p`
@@ -143,6 +145,7 @@ const ButtonContainer = styled.div`
 const EventImage = styled.img`
   width: 100%;
   height: 100%;
+  aspect-ratio: 16/9;
 `;
 
 const Upcoming = () => {
@@ -152,7 +155,9 @@ const Upcoming = () => {
       <Container>
         <Box>
           <EventTitle>Event Title</EventTitle>
-          <SubText>Date, Time, Location</SubText>
+          <SubText>
+            <Calendar /> Date, Time, Location
+          </SubText>
           <SubTextLight>
             Details about the event, what to expect, and how to prepare for it.
           </SubTextLight>

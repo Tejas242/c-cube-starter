@@ -152,22 +152,31 @@ const About = () => {
             Welcome To <br /> C<sup>3</sup>.
           </Title>
           <SubText>
-            c<sup>3</sup> (c-cube) is a coding club at Govt.
-            Engineering College, Chh. Sambhajinagar. Our community
-            brings together students passionate about programming to
-            learn, create, and innovate through code.
+            c<sup>3</sup> (c-cube) is a coding club at Govt. Engineering
+            College, Chh. Sambhajinagar. Our community brings together students
+            passionate about programming to learn, create, and innovate through
+            code.
           </SubText>
           <SubTextLight>
             With expertise spanning languages, frameworks, and emerging
-            technologies, c<sup>3</sup> offers a diverse coding environment. It's
-            free and open to all students interested in coding. Join our
-            collective to attend workshops, collaborate on projects, and
-            be part of the coding movement. Grow your skills, network with
-            peers, and unlock your potential.
+            technologies, c<sup>3</sup> offers a diverse coding environment.
+            It's free and open to all students interested in coding. Join our
+            collective to attend workshops, collaborate on projects, and be part
+            of the coding movement. Grow your skills, network with peers, and
+            unlock your potential.
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
-              <Button text="JOIN OUR DISCORD" link="#" />
+              <a
+                href="https://discord.com/invite/yEW8j9S5"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Button
+                  text="Join Our Discord"
+                  link="https://discord.com/invite/yEW8j9S5"
+                />
+              </a>
             </ThemeProvider>
           </ButtonContainer>
         </Box>

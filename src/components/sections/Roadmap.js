@@ -210,7 +210,7 @@ const Roadmap = () => {
 
   return (
     <Section id="roadmap">
-      <Title>Roadmap</Title>
+      <Title>Domains</Title>
       <Container>
         <SvgContainer>
           <DrawSvg />
@@ -219,28 +219,28 @@ const Roadmap = () => {
           <Item>&nbsp;</Item>
           <RoadMapItem
             addToRef={addToRefs}
-            title="Grand Opening"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Artificial Intelligence"
+            subtext="Explore the fascinating realms of Artificial Intelligence and Machine Learning."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Bla Bla Bla"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Competitive Programming"
+            subtext="Participate in coding contests and challenges."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Bla Bla Bla"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Web Development"
+            subtext="Master front-end and back-end web development technologies."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Bla Bla Bla"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="App Development"
+            subtext="Develop native and cross-platform mobile apps."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Bla Bla Bla"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Cybersecurity"
+            subtext="Safeguard systems and data from cyber threats."
           />
         </Items>
       </Container>

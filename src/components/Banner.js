@@ -149,7 +149,13 @@ const Banner = () => {
         Join the <br /> C<sup>3</sup>
       </Title>
       <BtnContainer>
-        <JoinNow>join now</JoinNow>
+        <a
+          href="https://discord.com/invite/yEW8j9S5"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <JoinNow>join now</JoinNow>
+        </a>
       </BtnContainer>
     </Section>
   );
