@@ -4,6 +4,7 @@ import Button from "../Button";
 import { ThemeProvider } from "styled-components";
 import { dark } from "../../styles/Themes";
 import Calendar from "../../Icons/Calendar";
+import upcoming from "../../assets/Upcoming-Event/upcoming.png";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -81,6 +82,23 @@ const EventTitle = styled.h2`
   font-weight: 600;
 `;
 
+const EventInfo = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 1rem auto;
+
+  @media (max-width: 64em) {
+    width: 100%;
+    text-align: center;
+  }
+
+  @media (max-width: 40em) {
+    flex-direction: column;
+  }
+`;
+
 const SubText = styled.p`
   font-size: ${(props) => props.theme.fontlg};
   color: ${(props) => props.theme.body};
@@ -127,6 +145,28 @@ const SubTextLight = styled.p`
   }
 `;
 
+const SubTextLocation = styled.p`
+  font-size: ${(props) => props.theme.fontmd};
+  color: ${(props) => props.theme.body};
+  align-self: flex-start;
+  width: 80%;
+  font-weight: 400;
+
+  @media (max-width: 64em) {
+    width: 100%;
+    text-align: center;
+    font-size: ${(props) => props.theme.fontsm};
+  }
+
+  @media (max-width: 40em) {
+    font-size: ${(props) => props.theme.fontsm};
+  }
+
+  @media (max-width: 30em) {
+    font-size: ${(props) => props.theme.fontxs};
+  }
+`;
+
 const ButtonContainer = styled.div`
   width: 80%;
   margin: 1rem auto;
@@ -154,12 +194,19 @@ const Upcoming = () => {
       <Title>Upcoming</Title>
       <Container>
         <Box>
-          <EventTitle>Event Title</EventTitle>
-          <SubText>
-            <Calendar /> Date, Time, Location
-          </SubText>
+          <EventTitle>Inauguration Ceremony</EventTitle>
+          <EventInfo>
+            <SubText>
+              30<sup>th</sup> March, 2024 <br /> 05:00 PM IST
+            </SubText>
+            <SubTextLocation>
+              Electrical Seminar Hall, Govt. Engineering College Chh.
+              Sambhajinagar
+            </SubTextLocation>
+          </EventInfo>
           <SubTextLight>
-            Details about the event, what to expect, and how to prepare for it.
+            SPEAKER: <br />
+            <strong>Mr. Satyam Avhad</strong> <br /> Hopify Technologies, Pune
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
@@ -168,7 +215,9 @@ const Upcoming = () => {
           </ButtonContainer>
         </Box>
         <Box>
-          <EventImage src="https://source.unsplash.com/random" />
+          <EventImage
+            src={`${upcoming || "https://source.unsplash.com/random"}`}
+          />
         </Box>
       </Container>
     </Section>

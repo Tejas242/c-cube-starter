@@ -160,7 +160,7 @@ const Navigation = () => {
         <Menu click={click}>
           <MenuItem onClick={() => scrollTo("home")}>Home</MenuItem>
           <MenuItem onClick={() => scrollTo("about")}>About</MenuItem>
-          <MenuItem onClick={() => scrollTo("Domains")}>Roadmap</MenuItem>
+          <MenuItem onClick={() => scrollTo("roadmap")}>Domains</MenuItem>
           <MenuItem onClick={() => scrollTo("showcase")}>Showcase</MenuItem>
           <MenuItem onClick={() => scrollTo("team")}>Team</MenuItem>
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
