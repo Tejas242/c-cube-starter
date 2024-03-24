@@ -129,11 +129,10 @@ const ButtonContainer = styled.div`
   width: 80%;
   margin: 1rem auto;
   display: flex;
-  align-self: flex-start;
 
   @media (max-width: 64em) {
     width: 100%;
-    self-align: center;
+    justify-content: center;
     button {
       margin: 0 auto;
     }
