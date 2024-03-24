@@ -146,10 +146,8 @@ const Carousel = () => {
             )
           ); // Change URL if needed
         }
-        console.log(promises);
         const tipsData = await Promise.all(promises);
         setTips(tipsData);
-        console.log(tipsData);
       } catch (error) {
         console.error("Error fetching tips:", error);
       }
