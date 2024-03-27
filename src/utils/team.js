@@ -1,20 +1,13 @@
-/* Store the following format to use in such components
-    <MemberComponent
-          img={img3}
-          name="RIDDHI VERNEKAR"
-          position="Vice-President"
-        />
-        */
+/* Replacement SVG Avatars */
 import img from "../assets/Nfts/bighead.svg";
 import img1 from "../assets/Nfts/bighead-1.svg";
 import img3 from "../assets/Nfts/bighead-3.svg";
 import img4 from "../assets/Nfts/bighead-4.svg";
 import img5 from "../assets/Nfts/bighead-5.svg";
 import img6 from "../assets/Nfts/bighead-6.svg";
-import img7 from "../assets/Nfts/bighead-7.svg";
-import img8 from "../assets/Nfts/bighead-8.svg";
 import img9 from "../assets/Nfts/bighead-9.svg";
 
+/* Profile Images */
 import riddhi from "../assets/team/riddhi_vernekar.jpg";
 import animesh from "../assets/team/animesh_yadav.jpg";
 import aditya from "../assets/team/aditya_dhanure.jpg";
