@@ -5,7 +5,16 @@
           position="Vice-President"
         />
         */
+import img from "../assets/Nfts/bighead.svg";
 import img1 from "../assets/Nfts/bighead-1.svg";
+import img3 from "../assets/Nfts/bighead-3.svg";
+import img4 from "../assets/Nfts/bighead-4.svg";
+import img5 from "../assets/Nfts/bighead-5.svg";
+import img6 from "../assets/Nfts/bighead-6.svg";
+import img7 from "../assets/Nfts/bighead-7.svg";
+import img8 from "../assets/Nfts/bighead-8.svg";
+import img9 from "../assets/Nfts/bighead-9.svg";
+
 import riddhi from "../assets/team/riddhi_vernekar.jpg";
 import animesh from "../assets/team/animesh_yadav.jpg";
 import aditya from "../assets/team/aditya_dhanure.jpg";
@@ -60,27 +69,27 @@ export const members = [
     position: "Digital & Documentation Coordinator",
   },
   {
-    img: img1,
+    img: img3,
     name: "Bhakti Kasliwal",
     position: "Digital & Documentation Coordinator",
   },
   {
-    img: img1,
+    img: img4,
     name: "Yatish Badgujar",
     position: "Marketing & Social Media Coordinator",
   },
   {
-    img: img1,
+    img: img9,
     name: "Sameera Lakhote",
     position: "Marketing & Social Media Coordinator",
   },
   {
-    img: img1,
+    img: img6,
     name: "Viraj Wakle",
     position: "Technical Coordinator",
   },
   {
-    img: img1,
+    img: img5,
     name: "Tejas Mahajan",
     position: "Technical Coordinator",
   },
@@ -105,7 +114,7 @@ export const members = [
     position: "Technical Coordinator",
   },
   {
-    img: img1,
+    img: img,
     name: "Shalini Katore",
     position: "Technical Coordinator",
   },
