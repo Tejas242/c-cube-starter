@@ -13,6 +13,9 @@ const Title = styled.h2`
   span {
     text-transform: uppercase;
     font-family: "Akaya Telivigala", cursive;
+    /* It is making extra space on right side of webpage can you fix it*/
+    width: 100%;
+    overflow: hidden;
   }
 
   .text-1 {

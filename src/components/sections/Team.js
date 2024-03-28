@@ -3,6 +3,22 @@ import styled from "styled-components";
 
 import ConfettiComponent from "../Confetti";
 import { members } from "../../utils/team.js";
+import {
+  FaGithub,
+  FaTwitter,
+  FaLinkedin,
+  FaInstagram,
+  FaDribbble,
+} from "react-icons/fa";
+
+// Define a mapping between platform names and icons
+const socialIcons = {
+  github: FaGithub,
+  twitter: FaTwitter,
+  linkedin: FaLinkedin,
+  instagram: FaInstagram,
+  dribbble: FaDribbble,
+};
 
 const Section = styled.section`
   min-height: 100vh;
@@ -109,7 +125,21 @@ const Position = styled.h2`
   font-weight: 400;
 `;
 
-const MemberComponent = ({ img, name = " ", position = " " }) => {
+const SocialLinks = styled.div`
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  color: ${(props) => props.theme.text};
+`;
+
+const MemberComponent = ({
+  img,
+  name = " ",
+  position = " ",
+  socialLinks = {},
+}) => {
   return (
     <Item>
       <ImageContainer>
@@ -117,6 +147,24 @@ const MemberComponent = ({ img, name = " ", position = " " }) => {
       </ImageContainer>
       <Name>{name}</Name>
       <Position>{position}</Position>
+      <SocialLinks>
+        {Object.keys(socialLinks).map((platform, index) => {
+          const IconComponent = socialIcons[platform];
+          if (IconComponent) {
+            return (
+              <a
+                key={index}
+                href={socialLinks[platform]}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IconComponent />
+              </a>
+            );
+          }
+          return null; // Return null for platforms without icons
+        })}
+      </SocialLinks>
     </Item>
   );
 };
@@ -124,7 +172,7 @@ const MemberComponent = ({ img, name = " ", position = " " }) => {
 const Team = () => {
   return (
     <Section id="team">
-      <ConfettiComponent />
+      {/* <ConfettiComponent /> */}
       <Title>Team</Title>
       <Container>
         {members.map((member, index) => (
@@ -133,6 +181,7 @@ const Team = () => {
             img={member.img}
             name={member.name}
             position={member.position}
+            socialLinks={member.socialLinks}
           />
         ))}
       </Container>
