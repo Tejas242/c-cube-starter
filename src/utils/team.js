@@ -1,11 +1,8 @@
 /* Replacement SVG Avatars */
 import img from "../assets/Nfts/bighead.svg";
 import img1 from "../assets/Nfts/bighead-1.svg";
-import img3 from "../assets/Nfts/bighead-3.svg";
-import img4 from "../assets/Nfts/bighead-4.svg";
 import img5 from "../assets/Nfts/bighead-5.svg";
 import img6 from "../assets/Nfts/bighead-6.svg";
-import img9 from "../assets/Nfts/bighead-9.svg";
 
 /* Profile Images */
 import riddhi from "../assets/team/riddhi_vernekar.jpg";
@@ -19,6 +16,9 @@ import saima from "../assets/team/saima_syeda.jpg";
 import samit from "../assets/team/samit_chavan.jpg";
 import shivam from "../assets/team/shivam_singh.jpeg";
 import shreyash from "../assets/team/shreyash_deshmukh.jpeg";
+import bhakti from "../assets/team/bhakti_kasliwal.jpg";
+import sameera from "../assets/team/sameera_lakhote.jpg";
+import yatish from "../assets/team/yatish_badgujar.jpg";
 
 export const members = [
   {
@@ -95,7 +95,7 @@ export const members = [
     },
   },
   {
-    img: img3,
+    img: bhakti,
     name: "Bhakti Kasliwal",
     position: "Digital & Documentation Coordinator",
     socialLinks: {
@@ -104,7 +104,7 @@ export const members = [
     },
   },
   {
-    img: img4,
+    img: yatish,
     name: "Yatish Badgujar",
     position: "Marketing & Social Media Coordinator",
     socialLinks: {
@@ -112,7 +112,7 @@ export const members = [
     },
   },
   {
-    img: img9,
+    img: sameera,
     name: "Sameera Lakhote",
     position: "Marketing & Social Media Coordinator",
     socialLinks: {
