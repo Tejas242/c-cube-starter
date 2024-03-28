@@ -28,7 +28,7 @@ export const members = [
   },
   {
     img: ahmar,
-    name: "AHMAR HILAI",
+    name: "AHMAR HILAL",
     position: "President",
   },
   {
@@ -48,7 +48,7 @@ export const members = [
   },
   {
     img: shreyash,
-    name: "SHREYASH DESHMUKH",
+    name: "SHREYAS DESHMUKH",
     position: "Head Coordinator",
   },
   {
