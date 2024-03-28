@@ -53,7 +53,7 @@ export const members = [
   },
   {
     img: shivam,
-    name: "SHVAM SINGH",
+    name: "SHIVAM SINGH",
     position: "Treasurer",
   },
   {
