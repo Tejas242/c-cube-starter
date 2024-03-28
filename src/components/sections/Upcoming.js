@@ -210,7 +210,16 @@ const Upcoming = () => {
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
-              <Button text="ADD TO CALENDER" link="#" />
+              <a
+                href="https://calendar.app.google/XpZXxu93D4kkHJGS8"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Button
+                  text="ADD TO CALENDER"
+                  link="https://calendar.app.google/XpZXxu93D4kkHJGS8"
+                />
+              </a>
             </ThemeProvider>
           </ButtonContainer>
         </Box>
