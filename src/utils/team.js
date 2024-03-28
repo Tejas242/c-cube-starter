@@ -86,6 +86,11 @@ export const members = [
     name: "Tejas Mahajan",
     position: "Technical Coordinator",
   },
+{
+    img: samit,
+    name: "Samit Chavhan",
+    position: "Technical Coordinator",
+  },
   {
     img: prachi,
     name: "Prachi Gatlewar",
@@ -94,11 +99,6 @@ export const members = [
   {
     img: aditya,
     name: "Aditya Dhanure",
-    position: "Technical Coordinator",
-  },
-  {
-    img: samit,
-    name: "Samit Chavhan",
     position: "Technical Coordinator",
   },
   {
