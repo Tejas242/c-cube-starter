@@ -28,7 +28,7 @@ export const members = [
   },
   {
     img: ahmar,
-    name: "AHMAR HILAI",
+    name: "AHMAR HILAL",
     position: "President",
   },
   {
@@ -48,12 +48,12 @@ export const members = [
   },
   {
     img: shreyash,
-    name: "SHREYASH DESHMUKH",
+    name: "SHREYAS DESHMUKH",
     position: "Head Coordinator",
   },
   {
     img: shivam,
-    name: "SHVAM SINGH",
+    name: "SHIVAM SINGH",
     position: "Treasurer",
   },
   {
@@ -86,6 +86,11 @@ export const members = [
     name: "Tejas Mahajan",
     position: "Technical Coordinator",
   },
+{
+    img: samit,
+    name: "Samit Chavhan",
+    position: "Technical Coordinator",
+  },
   {
     img: prachi,
     name: "Prachi Gatlewar",
@@ -94,11 +99,6 @@ export const members = [
   {
     img: aditya,
     name: "Aditya Dhanure",
-    position: "Technical Coordinator",
-  },
-  {
-    img: samit,
-    name: "Samit Chavhan",
     position: "Technical Coordinator",
   },
   {
