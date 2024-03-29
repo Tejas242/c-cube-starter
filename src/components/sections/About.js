@@ -4,6 +4,7 @@ import Carousel from "../Carousel";
 import Button from "../Button";
 import { ThemeProvider } from "styled-components";
 import { dark } from "../../styles/Themes";
+import { FaDiscord, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -139,6 +140,30 @@ const ButtonContainer = styled.div`
   }
 `;
 
+const IconList = styled.div`
+  width: 80%;
+  color: ${(props) => props.theme.body};
+  display: flex;
+  margin: 1rem auto;
+
+  & > * {
+    padding-right: 0.5rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  @media (max-width: 64em) {
+    width: 100%;
+    justify-content: center;
+    button {
+      margin: 0 auto;
+    }
+  }
+`;
+
 const About = () => {
   return (
     <Section id="about">
@@ -164,6 +189,43 @@ const About = () => {
             of the coding movement. Grow your skills, network with peers, and
             unlock your potential.
           </SubTextLight>
+          <IconList>
+            <a
+              href="https://discord.com/invite/yEW8j9S5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDiscord size={"24"} />
+            </a>
+            {/* <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Facebook />
+            </a> */}
+            <a
+              href="https://www.instagram.com/ccube_community"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram size={"24"} />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter size={"24"} />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/101699745/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={"24"} />
+            </a>
+          </IconList>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
               <a
