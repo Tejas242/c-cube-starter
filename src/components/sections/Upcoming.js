@@ -200,8 +200,8 @@ const Upcoming = () => {
               30<sup>th</sup> March, 2024 <br /> 05:00 PM IST
             </SubText>
             <SubTextLocation>
-              Electrical Seminar Hall, Govt. Engineering College Chh.
-              Sambhajinagar
+              Electrical Seminar Hall, Govt. Engineering College, Aurangabad
+              (Chh. Sambhajinagar)
             </SubTextLocation>
           </EventInfo>
           <SubTextLight>

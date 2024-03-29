@@ -27,7 +27,7 @@ export const mentors = [
   {
     img: principal,
     name: "Dr. S. S. Dambhare",
-    position: "Mentor",
+    position: "Guidenace & Mentor",
   },
   {
     img: vikul_sir,
