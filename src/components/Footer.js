@@ -3,10 +3,7 @@ import styled from "styled-components";
 import Banner from "./Banner";
 import Logo from "./Logo";
 
-import Facebook from "../Icons/Facebook";
-import Instagram from "../Icons/Instagram";
-import Twitter from "../Icons/Twitter";
-import LinkedIn from "../Icons/LinkedIn";
+import { FaDiscord, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -134,32 +131,39 @@ const Footer = () => {
           <Logo />
           <IconList>
             <a
+              href="https://discord.com/invite/yEW8j9S5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDiscord size={"24"} />
+            </a>
+            {/* <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Facebook />
-            </a>
+            </a> */}
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/ccube_community"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Instagram />
+              <FaInstagram size={"24"} />
             </a>
             <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Twitter />
+              <FaTwitter size={"24"} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/101699745/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <LinkedIn />
+              <FaLinkedin size={"24"} />
             </a>
           </IconList>
         </Left>
@@ -167,7 +171,7 @@ const Footer = () => {
           <Item onClick={() => scrollTo("home")}>Home</Item>
           <Item onClick={() => scrollTo("about")}>About</Item>
           <Item onClick={() => scrollTo("roadmap")}>Roadmap</Item>
-          <Item onClick={() => scrollTo("showcase")}>Showcase</Item>
+          {/* <Item onClick={() => scrollTo("showcase")}>Showcase</Item> */}
           <Item onClick={() => scrollTo("team")}>Team</Item>
           <Item onClick={() => scrollTo("faq")}>Faq</Item>
         </MenuItems>
@@ -183,7 +187,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-             Screenager
+            Screenager
           </a>
         </span>
       </Bottom>

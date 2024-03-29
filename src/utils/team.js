@@ -1,8 +1,6 @@
 /* Replacement SVG Avatars */
 import img from "../assets/Nfts/bighead.svg";
-import img1 from "../assets/Nfts/bighead-1.svg";
 import img5 from "../assets/Nfts/bighead-5.svg";
-import img6 from "../assets/Nfts/bighead-6.svg";
 
 /* Profile Images */
 import principal from "../assets/mentors/principal.jpeg";
@@ -21,6 +19,8 @@ import samit from "../assets/team/samit_chavan.jpg";
 import sameera from "../assets/team/sameera_lakhote.jpg";
 import shivam from "../assets/team/shivam_singh.jpeg";
 import shreyash from "../assets/team/shreyash_deshmukh.jpeg";
+import tejas from "../assets/team/tejas.jpg";
+import viraj from "../assets/team/viraj_wakle.jpeg";
 import yatish from "../assets/team/yatish_badgujar.jpg";
 
 export const mentors = [
@@ -137,7 +137,7 @@ export const members = [
     },
   },
   {
-    img: img6,
+    img: viraj,
     name: "Viraj Wakle",
     position: "Technical Coordinator",
     socialLinks: {
@@ -147,7 +147,7 @@ export const members = [
     },
   },
   {
-    img: img5,
+    img: tejas,
     name: "Tejas Mahajan",
     position: "Technical Coordinator",
     socialLinks: {

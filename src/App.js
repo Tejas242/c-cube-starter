@@ -23,7 +23,7 @@ function App() {
         <About />
         <Upcoming />
         <Roadmap />
-        <Showcase />
+        {/* <Showcase /> */}
         <Team />
         <Faq />
         <Footer />
