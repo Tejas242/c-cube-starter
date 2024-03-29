@@ -216,7 +216,7 @@ const Upcoming = () => {
                 rel="noreferrer noopener"
               >
                 <Button
-                  text="ADD TO CALENDER"
+                  text="ADD TO CALENDAR"
                   link="https://calendar.app.google/XpZXxu93D4kkHJGS8"
                 />
               </a>

@@ -5,21 +5,36 @@ import img5 from "../assets/Nfts/bighead-5.svg";
 import img6 from "../assets/Nfts/bighead-6.svg";
 
 /* Profile Images */
+import principal from "../assets/mentors/principal.jpeg";
+import vikul_sir from "../assets/mentors/vikul_sir.jpeg";
 import riddhi from "../assets/team/riddhi_vernekar.jpg";
 import animesh from "../assets/team/animesh_yadav.jpg";
 import aditya from "../assets/team/aditya_dhanure.jpg";
 import ahmar from "../assets/team/ahmar_hilai.jpg";
 import akash from "../assets/team/akash_shinde.png";
+import bhakti from "../assets/team/bhakti_kasliwal.jpg";
 import prachi from "../assets/team/prachi_gatlewar.jpg";
 import pratik from "../assets/team/pratik_wayal.jpeg";
+import sagar from "../assets/team/sagar_madankar.jpeg";
 import saima from "../assets/team/saima_syeda.jpg";
 import samit from "../assets/team/samit_chavan.jpg";
+import sameera from "../assets/team/sameera_lakhote.jpg";
 import shivam from "../assets/team/shivam_singh.jpeg";
 import shreyash from "../assets/team/shreyash_deshmukh.jpeg";
-import bhakti from "../assets/team/bhakti_kasliwal.jpg";
-import sameera from "../assets/team/sameera_lakhote.jpg";
 import yatish from "../assets/team/yatish_badgujar.jpg";
 
+export const mentors = [
+  {
+    img: principal,
+    name: "Dr. S. S. Dambhare",
+    position: "Mentor",
+  },
+  {
+    img: vikul_sir,
+    name: "Dr. Vikul Pawar",
+    position: "Faculty Advisor",
+  },
+];
 export const members = [
   {
     img: pratik,
@@ -52,7 +67,7 @@ export const members = [
     },
   },
   {
-    img: img1,
+    img: sagar,
     name: "SAGAR MADANKAR",
     position: "Community Administrator",
   },

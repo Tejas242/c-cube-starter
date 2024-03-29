@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-import ConfettiComponent from "../Confetti";
-import { members } from "../../utils/team.js";
+// import ConfettiComponent from "../Confetti";
+import { members, mentors } from "../../utils/team.js";
 import {
   FaGithub,
   FaTwitter,
@@ -43,7 +43,25 @@ const Title = styled.h1`
   }
 `;
 
-const Container = styled.div`
+const MentorsContainer = styled.div`
+  width: 75%;
+  margin: 2rem auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @media (max-width: 64em) {
+    width: 80%;
+  }
+  @media (max-width: 48em) {
+    width: 90%;
+    justify-content: center;
+  }
+`;
+
+const TeamContainer = styled.div`
   width: 75%;
   margin: 2rem auto;
 
@@ -172,9 +190,20 @@ const MemberComponent = ({
 const Team = () => {
   return (
     <Section id="team">
+      <Title>Mentors</Title>
       {/* <ConfettiComponent /> */}
+      <MentorsContainer>
+        {mentors.map((mentor, index) => (
+          <MemberComponent
+            key={index}
+            img={mentor.img}
+            name={mentor.name}
+            position={mentor.position}
+          />
+        ))}
+      </MentorsContainer>
       <Title>Team</Title>
-      <Container>
+      <TeamContainer>
         {members.map((member, index) => (
           <MemberComponent
             key={index}
@@ -184,7 +213,7 @@ const Team = () => {
             socialLinks={member.socialLinks}
           />
         ))}
-      </Container>
+      </TeamContainer>
     </Section>
   );
 };

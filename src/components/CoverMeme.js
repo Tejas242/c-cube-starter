@@ -21,6 +21,7 @@ const CoverMeme = () => {
         src={"https://randommeme-five.vercel.app/"}
         type="image/png"
         alt="dev meme"
+        height={400}
       />
     </MemeContainer>
   );

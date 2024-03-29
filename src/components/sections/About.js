@@ -152,9 +152,9 @@ const About = () => {
           </Title>
           <SubText>
             c<sup>3</sup> (c-cube) is a coding club at Govt. Engineering
-            College, Chh. Sambhajinagar. Our community brings together students
-            passionate about programming to learn, create, and innovate through
-            code.
+            College, Aurangabad (Chh. Sambhajinagar). Our community brings
+            together students passionate about programming to learn, create, and
+            innovate through code.
           </SubText>
           <SubTextLight>
             With expertise spanning languages, frameworks, and emerging
