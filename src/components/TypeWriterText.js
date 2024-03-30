@@ -110,7 +110,7 @@ const TypeWriterText = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <Button text="Join Us" link="https://discord.com/invite/yEW8j9S5" />
+          <Button text="Join Us" link="https://forms.gle/16L7KjDEtJjGnsqm6" />
         </a>
       </ButtonContainer>
     </>
