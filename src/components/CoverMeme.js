@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import homeI from "../assets/hero_image.jpg";
 
 const MemeContainer = styled.div`
   width: 100%;
@@ -18,7 +19,8 @@ const CoverMeme = () => {
   return (
     <MemeContainer>
       <img
-        src={"https://randommeme-five.vercel.app/"}
+        // src={"https://randommeme-five.vercel.app/"}
+        src={homeI}
         type="image/png"
         alt="dev meme"
         height={400}

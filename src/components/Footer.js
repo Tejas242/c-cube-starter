@@ -170,7 +170,7 @@ const Footer = () => {
         <MenuItems>
           <Item onClick={() => scrollTo("home")}>Home</Item>
           <Item onClick={() => scrollTo("about")}>About</Item>
-          <Item onClick={() => scrollTo("roadmap")}>Roadmap</Item>
+          <Item onClick={() => scrollTo("roadmap")}>Domains</Item>
           {/* <Item onClick={() => scrollTo("showcase")}>Showcase</Item> */}
           <Item onClick={() => scrollTo("team")}>Team</Item>
           <Item onClick={() => scrollTo("faq")}>Faq</Item>
@@ -180,7 +180,7 @@ const Footer = () => {
         <span>
           &copy; {new Date().getFullYear()} C<sup>3</sup>. All rights reserved.
         </span>
-        <span>
+        {/* <span>
           Made with &#10084; by
           <a
             href="https://github.com/tejas242"
@@ -189,7 +189,7 @@ const Footer = () => {
           >
             Screenager
           </a>
-        </span>
+        </span> */}
       </Bottom>
     </Section>
   );

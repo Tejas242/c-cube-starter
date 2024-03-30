@@ -17,6 +17,7 @@ import sagar from "../assets/team/sagar_madankar.jpeg";
 import saima from "../assets/team/saima_syeda.jpg";
 import samit from "../assets/team/samit_chavan.jpg";
 import sameera from "../assets/team/sameera_lakhote.jpg";
+import shalini from "../assets/team/shalini_katore.jpg"
 import shivam from "../assets/team/shivam_singh.jpeg";
 import shreyash from "../assets/team/shreyash_deshmukh.jpeg";
 import tejas from "../assets/team/tejas.jpg";
@@ -194,7 +195,7 @@ export const members = [
     },
   },
   {
-    img: img,
+    img: shalini,
     name: "Shalini Katore",
     position: "Technical Coordinator",
     socialLinks: {

@@ -4,7 +4,7 @@ import Button from "../Button";
 import { ThemeProvider } from "styled-components";
 import { dark } from "../../styles/Themes";
 import Calendar from "../../Icons/Calendar";
-import upcoming from "../../assets/Upcoming-Event/upcoming.png";
+import upcoming from "../../assets/Upcoming-Event/upcoming.jpeg";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -185,7 +185,7 @@ const ButtonContainer = styled.div`
 const EventImage = styled.img`
   width: 100%;
   height: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 1/1;
 `;
 
 const Upcoming = () => {
