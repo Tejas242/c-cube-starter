@@ -106,7 +106,7 @@ const TypeWriterText = () => {
       <SubTitle>Discover the Art of Coding.</SubTitle>
       <ButtonContainer>
         <a
-          href="https://discord.com/invite/yEW8j9S5"
+          href="https://forms.gle/16L7KjDEtJjGnsqm6"
           target="_blank"
           rel="noreferrer noopener"
         >
