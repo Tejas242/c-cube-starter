@@ -18,7 +18,7 @@ import saima from "../assets/team/saima_syeda.jpg";
 import samit from "../assets/team/samit_chavan.jpg";
 import sameera from "../assets/team/sameera_lakhote.jpg";
 import shalini from "../assets/team/shalini_katore.jpg"
-import shivam from "../assets/team/shivam_singh.jpeg";
+import shivam from "../assets/team/shivam_singh.jpg";
 import shreyash from "../assets/team/shreyash_deshmukh.jpeg";
 import tejas from "../assets/team/tejas.jpg";
 import viraj from "../assets/team/viraj_wakle.jpeg";
