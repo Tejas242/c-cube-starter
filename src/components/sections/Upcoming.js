@@ -3,8 +3,7 @@ import styled from "styled-components";
 import Button from "../Button";
 import { ThemeProvider } from "styled-components";
 import { dark } from "../../styles/Themes";
-import Calendar from "../../Icons/Calendar";
-import upcoming from "../../assets/Upcoming-Event/upcoming.jpeg";
+import upcoming from "../../assets/Upcoming-Event/gitNgithub.webp";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -185,7 +184,6 @@ const ButtonContainer = styled.div`
 const EventImage = styled.img`
   width: 100%;
   height: 100%;
-  aspect-ratio: 1/1;
 `;
 
 const Upcoming = () => {
@@ -194,30 +192,27 @@ const Upcoming = () => {
       <Title>Upcoming</Title>
       <Container>
         <Box>
-          <EventTitle>Inauguration Ceremony</EventTitle>
+          <EventTitle>Git & Github Workshop</EventTitle>
           <EventInfo>
             <SubText>
-              30<sup>th</sup> March, 2024 <br /> 05:00 PM IST
+              5<sup>th</sup> April, 2024 <br />
             </SubText>
-            <SubTextLocation>
-              Electrical Seminar Hall, Govt. Engineering College, Aurangabad
-              (Chh. Sambhajinagar)
-            </SubTextLocation>
+            <SubTextLocation>Location To Be Decided</SubTextLocation>
           </EventInfo>
           <SubTextLight>
             SPEAKER: <br />
-            <strong>Mr. Satyam Avhad</strong> <br /> Hopify Technologies, Pune
+            <strong>Mr. Ahmar Hilal</strong> <br /> Third Year CSE, GECA
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
               <a
-                href="https://calendar.app.google/XpZXxu93D4kkHJGS8"
+                href="https://calendar.app.google/FeTpW8bLULmnWSNXA"
                 target="_blank"
                 rel="noreferrer noopener"
               >
                 <Button
                   text="ADD TO CALENDAR"
-                  link="https://calendar.app.google/XpZXxu93D4kkHJGS8"
+                  link="https://calendar.app.google/FeTpW8bLULmnWSNXA"
                 />
               </a>
             </ThemeProvider>
