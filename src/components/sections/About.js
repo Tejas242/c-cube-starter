@@ -191,7 +191,7 @@ const About = () => {
           </SubTextLight>
           <IconList>
             <a
-              href="https://discord.com/invite/yEW8j9S5"
+              href="https://discord.com/invite/BhXNWdT3Fx"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -229,13 +229,13 @@ const About = () => {
           <ButtonContainer>
             <ThemeProvider theme={dark}>
               <a
-                href="https://discord.com/invite/yEW8j9S5"
+                href="https://discord.com/invite/BhXNWdT3Fx"
                 target="_blank"
                 rel="noreferrer noopener"
               >
                 <Button
                   text="Join Our Discord"
-                  link="https://discord.com/invite/yEW8j9S5"
+                  link="https://discord.com/invite/BhXNWdT3Fx"
                 />
               </a>
             </ThemeProvider>

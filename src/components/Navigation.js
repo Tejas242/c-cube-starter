@@ -190,43 +190,43 @@ const Navigation = () => {
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
           <MenuItem>
             <div className="mobile">
-            <IconList>
-            <a
-              href="https://discord.com/invite/yEW8j9S5"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaDiscord size={"24"} />
-            </a>
-            {/* <a
+              <IconList>
+                <a
+                  href="https://discord.com/invite/BhXNWdT3Fx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaDiscord size={"24"} />
+                </a>
+                {/* <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Facebook />
             </a> */}
-            <a
-              href="https://www.instagram.com/ccube_community"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram size={"24"} />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTwitter size={"24"} />
-            </a>
-            <a
-              href="https://www.linkedin.com/company/101699745/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin size={"24"} />
-            </a>
-          </IconList>
+                <a
+                  href="https://www.instagram.com/ccube_community"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram size={"24"} />
+                </a>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaTwitter size={"24"} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/101699745/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin size={"24"} />
+                </a>
+              </IconList>
             </div>
           </MenuItem>
         </Menu>
@@ -238,9 +238,9 @@ const Navigation = () => {
           >
             <Button text="Join Us" link="https://discord.com/invite/yEW8j9S5" />
           </a> */}
-        <IconList>
+          <IconList>
             <a
-              href="https://discord.com/invite/yEW8j9S5"
+              href="https://discord.com/invite/BhXNWdT3Fx"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -275,7 +275,7 @@ const Navigation = () => {
               <FaLinkedin size={"24"} />
             </a>
           </IconList>
-          </div>
+        </div>
       </NavBar>
     </Section>
   );

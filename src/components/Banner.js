@@ -152,7 +152,7 @@ const Banner = () => {
       </Title>
       <BtnContainer>
         <a
-          href="https://discord.com/invite/yEW8j9S5"
+          href="https://discord.com/invite/BhXNWdT3Fx"
           target="_blank"
           rel="noreferrer noopener"
         >
