@@ -203,6 +203,9 @@ const Upcoming = () => {
           <SubTextLight>
             SPEAKER: <br />
             <strong>Mr. Ahmar Hilal</strong> <br /> Third Year CSE, GECA
+            <br />
+            <br />
+            *NOTE: Bring your laptops
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
