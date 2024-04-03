@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Button from "../Button";
 import { ThemeProvider } from "styled-components";
 import { dark } from "../../styles/Themes";
-import upcoming from "../../assets/Upcoming-Event/gitNgithub.webp";
+import upcoming from "../../assets/Upcoming-Event/git.jpeg";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -145,24 +145,25 @@ const SubTextLight = styled.p`
 `;
 
 const SubTextLocation = styled.p`
-  font-size: ${(props) => props.theme.fontmd};
+  font-size: ${(props) => props.theme.fontlg};
   color: ${(props) => props.theme.body};
   align-self: flex-start;
   width: 80%;
+  margin: 1rem auto;
   font-weight: 400;
 
   @media (max-width: 64em) {
     width: 100%;
     text-align: center;
-    font-size: ${(props) => props.theme.fontsm};
+    font-size: ${(props) => props.theme.fontmd};
   }
 
   @media (max-width: 40em) {
-    font-size: ${(props) => props.theme.fontsm};
+    font-size: ${(props) => props.theme.fontmd};
   }
 
   @media (max-width: 30em) {
-    font-size: ${(props) => props.theme.fontxs};
+    font-size: ${(props) => props.theme.fontsm};
   }
 `;
 
@@ -195,9 +196,9 @@ const Upcoming = () => {
           <EventTitle>Git & Github Workshop</EventTitle>
           <EventInfo>
             <SubText>
-              5<sup>th</sup> April, 2024 <br />
+              4<sup>th</sup> April, 2024 <br />
             </SubText>
-            <SubTextLocation>Location To Be Decided</SubTextLocation>
+            <SubTextLocation>CSE Department</SubTextLocation>
           </EventInfo>
           <SubTextLight>
             SPEAKER: <br />
