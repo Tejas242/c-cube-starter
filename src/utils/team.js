@@ -17,7 +17,7 @@ import sagar from "../assets/team/sagar_madankar.jpeg";
 import saima from "../assets/team/saima_syeda.jpg";
 import samit from "../assets/team/samit_chavan.jpg";
 import sameera from "../assets/team/sameera_lakhote.jpg";
-import shalini from "../assets/team/shalini_katore.jpg"
+import shalini from "../assets/team/shalini_katore.jpg";
 import shivam from "../assets/team/shivam_singh.jpg";
 import shreyash from "../assets/team/shreyash_deshmukh.jpeg";
 import tejas from "../assets/team/tejas.jpg";
@@ -71,6 +71,10 @@ export const members = [
     img: sagar,
     name: "SAGAR MADANKAR",
     position: "Community Administrator",
+    socialLinks: {
+      linkedin: "https://www.linkedin.com/in/sagar-madankar-021a96227",
+      instagram: "https://www.instagram.com/swaggar_16",
+    },
   },
   {
     img: animesh,
