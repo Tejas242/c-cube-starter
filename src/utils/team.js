@@ -1,7 +1,3 @@
-/* Replacement SVG Avatars */
-import img from "../assets/Nfts/bighead.svg";
-import img5 from "../assets/Nfts/bighead-5.svg";
-
 /* Profile Images */
 import principal from "../assets/mentors/principal.jpeg";
 import vikul_sir from "../assets/mentors/vikul_sir.jpeg";
@@ -36,6 +32,8 @@ export const mentors = [
     position: "Faculty Advisor",
   },
 ];
+
+
 export const members = [
   {
     img: pratik,
