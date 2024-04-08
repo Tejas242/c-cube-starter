@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 // import ConfettiComponent from "../Confetti";
-import { members, mentors } from "../../utils/team.js";
+import { members, mentors } from "../../data/team.js";
 import {
   FaGithub,
   FaTwitter,
