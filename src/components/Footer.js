@@ -170,6 +170,7 @@ const Footer = () => {
         <MenuItems>
           <Item onClick={() => scrollTo("home")}>Home</Item>
           <Item onClick={() => scrollTo("about")}>About</Item>
+          <Item><a href="https://c3-oss.vercel.app">Contribute</a></Item>
           <Item onClick={() => scrollTo("roadmap")}>Domains</Item>
           {/* <Item onClick={() => scrollTo("showcase")}>Showcase</Item> */}
           <Item onClick={() => scrollTo("team")}>Team</Item>

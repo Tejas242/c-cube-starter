@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Button from "../Button";
 import { ThemeProvider } from "styled-components";
 import { dark } from "../../styles/Themes";
-import upcoming from "../../assets/Upcoming-Event/git.jpeg";
+import upcoming from "../../assets/Upcoming-Event/oss.png";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -193,30 +193,31 @@ const Upcoming = () => {
       <Title>Upcoming</Title>
       <Container>
         <Box>
-          <EventTitle>Git & Github Workshop</EventTitle>
+          <EventTitle>Open Source Contribution Program</EventTitle>
           <EventInfo>
             <SubText>
-              4<sup>th</sup> April, 2024 <br />
+              1<sup>st</sup> May, 2024 <br />
             </SubText>
-            <SubTextLocation>CSE Department</SubTextLocation>
+            <SubTextLocation><a href="https://c3-oss.vercel.app">ONLINE</a></SubTextLocation>
           </EventInfo>
           <SubTextLight>
-            SPEAKER: <br />
-            <strong>Mr. Ahmar Hilal</strong> <br /> Third Year CSE, GECA
-            <br />
-            <br />
-            *NOTE: Bring your laptops
+            <span style={{fontWeight: "bold"}}>Prerequisites:</span><br/>
+            <ul>
+              <li>Basic knowledge of open source, git and github.</li>
+              <li>A laptop to write code.</li>
+              <li>Little bit of creativity & Problem solving.</li>
+            </ul>
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
               <a
-                href="https://calendar.app.google/FeTpW8bLULmnWSNXA"
+                href="https://c3-oss.vercel.app"
                 target="_blank"
                 rel="noreferrer noopener"
               >
                 <Button
-                  text="ADD TO CALENDAR"
-                  link="https://calendar.app.google/FeTpW8bLULmnWSNXA"
+                  text="Browse Projects"
+                  link="https://c3-oss.vercel.app"
                 />
               </a>
             </ThemeProvider>

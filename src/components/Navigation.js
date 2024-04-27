@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 import Button from "./Button";
 import Logo from "./Logo";
 import { FaDiscord, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
@@ -158,6 +158,30 @@ const IconList = styled.div`
     }
   }
 `;
+// add a bouncing animation to the SpecialLink component
+
+const bounce = keyframes`
+  0%, 20%, 50%, 80%, 100% {
+    transform: scale(1);
+  }
+  40% {
+    transform: translateY(1.3);
+  }
+  60% {
+    transform: translateY(1.1);
+  }
+`;
+
+const SpecialLink = styled.a`
+  background: linear-gradient(90deg, #ff8a00 0%, #e52e71 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: ${bounce} 2s infinite;
+`;
 
 const Navigation = () => {
   const [click, setClick] = useState(false);
@@ -184,7 +208,7 @@ const Navigation = () => {
         <Menu click={click}>
           <MenuItem onClick={() => scrollTo("home")}>Home</MenuItem>
           <MenuItem onClick={() => scrollTo("about")}>About</MenuItem>
-          <MenuItem onClick={() => scrollTo("roadmap")}>Domains</MenuItem>
+          <MenuItem><SpecialLink href="https://c3-oss.vercel.app">Contribute</SpecialLink></MenuItem>
           {/* <MenuItem onClick={() => scrollTo("showcase")}>Showcase</MenuItem> */}
           <MenuItem onClick={() => scrollTo("team")}>Team</MenuItem>
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
